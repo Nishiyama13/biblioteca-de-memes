@@ -1,0 +1,30 @@
+{
+  "name": "biblioteca-de-memes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "url": "git+https://github.com/Nishiyama13/biblioteca-de-memes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishiyama13/biblioteca-de-memes/issues"
+  },
+  "homepage": "https://github.com/Nishiyama13/biblioteca-de-memes#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0"
+  }
+}
